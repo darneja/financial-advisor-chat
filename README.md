@@ -61,4 +61,8 @@ python app.py
 
 ## Security Note
 
-Make sure to keep your `.env` file secure and never commit it to version control. The `.env` file contains sensitive information (API keys) that should be kept private. 
+Make sure to keep your `.env` file secure and never commit it to version control. The `.env` file contains sensitive information (API keys) that should be kept private.
+
+## Contributing
+
+Feel free to submit issues and enhancement requests. 
