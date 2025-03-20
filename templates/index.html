@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Adventure Guide</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Financial Adventure Guide 🎮</h1>
+            <div id="stage-indicator" class="stage-indicator">
+                Current Quest: Character Creation 🎮
+            </div>
+        </header>
+        
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot">
+                    <div class="message-content">
+                        Welcome, brave adventurer! 🌟 I'm your Financial Adventure Guide! Let's begin your journey to financial mastery. What brings you to seek financial wisdom today?
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button id="send-button">Send 🚀</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html> 
